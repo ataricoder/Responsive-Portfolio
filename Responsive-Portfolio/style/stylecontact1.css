@@ -1,0 +1,135 @@
+body {
+	background-color: #f50057;
+}
+h1 {
+	font-family: "adineue-bold";
+	color: #000000;
+	text-align: center;
+}
+h2 {
+	font-family: "HUGEAvantGardeBold";
+	color: #000000;
+	text-align: center;
+}
+img {
+ width: 100%;
+ height: 100%;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  opacity: 0.5; 
+}
+a:active {
+	color: white !important;
+}
+nav {
+  font-family: "adineue-bold";
+  font-size: 32px;
+  word-spacing: 20px;
+  margin-left: 20px;
+}
+.waves {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	display: block;
+	min-width: 100%;
+	min-height: 70%;
+	margin: auto 0;
+}
+.footer,
+.push {
+  height: 100px;
+  font-family: "adineue-bold";
+  font-size: 24px;
+  text-align: center;
+  color: black;
+  padding-top: 400px;
+}
+@media screen and (max-width: 980px) {
+ h2 {
+ 	padding-left: 300px;
+ 	text-align: center;
+ 	font-size: 50px;
+ }
+ h1 {
+ 	padding-left: 300px;
+ 	text-align: center;
+ 	font-size: 50px;
+ }
+ .footer,
+.push {
+  height: 100px;
+  font-family: "adineue-bold";
+  font-size: 50px;
+  text-align: center;
+  color: black;
+  padding-top: 600px;
+  padding-left: 400px;
+}
+}
+@media screen and (max-width : 768px) {
+h2{
+	padding-left: 300px;
+	font-size: 50px;
+	text-align: center;
+}
+h1 {
+ 	padding-left: 300px;
+ 	text-align: center;
+ 	font-size: 50px;
+ }
+.footer,
+.push {
+  height: 100px;
+  font-family: "adineue-bold";
+  font-size: 50px;
+  text-align: center;
+  color: black;
+  padding-top: 600px;
+  padding-left: 400px;
+}
+
+
+}
+@media screen and (max-width: 640px) {
+	h2 {
+	padding-left: 300px;
+	font-size: 50px;
+	text-align: center;
+}
+h1 {
+ 	padding-left: 300px;
+ 	text-align: center;
+ 	font-size: 50px;
+ }
+.footer,
+.push {
+  height: 100px;
+  font-family: "adineue-bold";
+  font-size: 50px;
+  text-align: center;
+  color: black;
+  padding-top: 600px;
+  padding-left: 400px;
+}
+  
+}
+@font-face {
+	font-family:'HUGEAvantGardeBold'; 
+	src: url("fonts/HUGE/huge_agb_v5-webfont.eot?");
+	src: url("fonts/HUGE/huge_agb_v5-webfont.eot?#iefix") format("embedded-opentype"),
+		 url("fonts/HUGE/huge_agb_v5-webfont.svg#svgFontName") format("svg")
+}
+@font-face {
+	font-family:'adineue-bold'; 
+	src: url("fonts/ADINEUE/adineue-bold-webfont.eot?");
+	src: url("fonts/ADINEUE/adineue-bold-webfont.eot?#iefix") format("embedded-opentype"),
+		 url("fonts/ADINEUE/adineue-bold-webfont.woff") format("woff"),
+		 url("fonts/ADINEUE/adineue-bold-webfont.ttf") format("truetype"),
+		 url("fonts/ADINEUE/adineue-bold-webfont.svg#svgFontName") format("svg")
+}
